@@ -1,31 +1,35 @@
 <!doctype html>
 <html>
-	<head>
-		<title>Alarms Popup</title>
-		<script src="jquery-3.5.1.min.js"></script>
-		<script src="popup.js"></script>
-		<link rel="stylesheet" type="text/css" href="popup.css">
-	</head>
 
-	<body>
+<head>
+	<title>Alarms Popup</title>
+	<meta charset="utf-8" />
+	<script src="jquery-3.5.1.min.js"></script>
+	<script src="common.js"></script>
+	<script src="popup.js"></script>
+	<link rel="stylesheet" type="text/css" href="popup.css">
+</head>
 
-		<div id="switch_block" class="form-group switch-area" aria-label="Click!" title="Click!" tabindex="0">
-			<label class="switch">
-				<input id="switcher" type="checkbox" /> 
-				<span class="slider"></span>
-			</label>
-		</div>
+<body>
 
-		<hr>
+	<div id="switch_block" class="form-group switch-area" aria-label="Click!" title="Click!" tabindex="0">
+		<label class="switch">
+			<input id="switcher" type="checkbox" />
+			<span class="slider"></span>
+		</label>
+	</div>
 
-		<div id="text_status_block" class="form-group text-status" aria-label="Status!" title="Status!" tabindex="1">
-		</div>
+	<hr>
 
-		<hr>
+	<div class="form-group text-status" aria-label="Status!" title="Status!" tabindex="1">
+		<span id="text_span" class="status_text"></span>
+	</div>
 
-		<div id="music_titles_block" class="form-group text-area" aria-label="Audio info!" title="Audio info!" tabindex="2">
-		</div>
+	<hr>
 
-	</body>
+	<div id="music_titles_block" class="form-group text-area" aria-label="Audio info!" title="Audio info!" tabindex="2">
+	</div>
+
+</body>
 
 </html>
