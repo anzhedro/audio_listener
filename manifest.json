@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Audio listener",
+  "name": "Audio tracker",
   "description": "This extension sends titles of tabs with audio to localhost.",
-  "version": "0.0.0.2",
+  "version": "0.0.0.3",
   "icons": {
     "16": "images/logo16.png",
     "48": "images/logo48.png",
